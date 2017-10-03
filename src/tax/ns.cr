@@ -6,9 +6,6 @@ module Tax
       @ns = XML::Namespace.new(@prefix, @href)
     end
 
-    def to_unsafe
-    end
-
     protected def ptr
       @ns
     end
