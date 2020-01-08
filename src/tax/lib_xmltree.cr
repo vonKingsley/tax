@@ -1,5 +1,3 @@
-require "xml"
-
 @[Link("xml2")]
 lib LibXMLTree
   fun xmlNewDoc(version : UInt8*) : LibXML::Doc*
